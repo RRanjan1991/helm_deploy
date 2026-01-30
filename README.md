@@ -22,18 +22,18 @@ If you want to learn more about creating good readme files then refer the follow
 - Install charts by digest for better supply chain security.Charts with non-matching digests are not installed.
 # helm install myapp oci://registry.example.com/charts/RRanjan1991:abc123....
 
----> az login
----> kubectl apply -f .\pod.yml
----> choco install Kubernetes-helm -y
----> helm version
----> helm env
----> helm repo add bitnami https://charts.bitnami.com/bitnami
- ---> helm search repo nginx
+  ---> az login
+  ---> kubectl apply -f .\pod.yml
+  ---> choco install Kubernetes-helm -y
+  ---> helm version
+  ---> helm env
+  ---> helm repo add bitnami https://charts.bitnami.com/bitnami
+  ---> helm search repo nginx
   ---> helm install nginx-release1 bitnami/nginx
- ---> helm list
- ---> kubectl get pods
- ---> kubectl get svc
- ---> helm pull bitnami/nginx
- ---> Finally got one helm chat file you can unzip it and use it.
+  ---> helm list
+  ---> kubectl get pods
+  ---> kubectl get svc
+  ---> helm pull bitnami/nginx
+  ---> Finally got one helm chat file you can unzip it and use it.
 
  
